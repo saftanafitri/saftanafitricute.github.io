@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menghitung Rumus Daya</title>
+    <link rel="stylesheet" href="../../assets/style/main2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center; color: rgba(93, 162, 19, 0.604); font-size: 50px;font-style: italic;" >
+        KALKULATOR DAYA
+      </h1>
+      <section>
+       <h3> <fieldset style="max-width: 400px">
+          <legend>Informasi</legend>
+          P = W/t
+          <p>P : daya (watt)</p>
+          <p>W : usaha (Joule)</p>
+          <p>t : waktu (sekon)</p>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Form</legend>
+          <label for="usaha">usaha (Joule)<p></p></label>
+          <input type="number" id="usaha" name="usaha" min="0" /><br /><br />
+          <label for="waktu">waktu (sekon)<p></p></label>
+          <input type="number" id="waktu" name="waktu" min="0" /><br /><br />
+          <button type="button" id="btnHitung">Hitung !</button>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Hasil</legend>
+          <label for="hasil">Daya : </label>
+          <span id="hasil"></span>  watt
+        </fieldset></h3>
+      </section>
+    </div>
+    <script src="./daya.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>aplikasi menghitung rumus FISIKA DASAR</title>
+    <link rel="stylesheet" href="./assets/style/loading.css" />
+  </head>
+  <body>
+    <div class="logo">
+    </div>
+    <figure>
+        <img src="./assets/logo.gif">
+    </figure>
+    <div class="loading-area">
+        <div class="loader">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+       <!----><script>
+          window.onload = function() {
+            let loader = document.getElementsByClassName("loader")[0];
+            let loading = document.createElement("div");
+            loading.textContent = " ";
+            setTimeout(() => {
+            loader.parentNode.removeChild(loader);
+            window.location.href = "beranda.html";
+    },4000);
+}
+        </script>
+        
+    </div>
+</body>
+</html>

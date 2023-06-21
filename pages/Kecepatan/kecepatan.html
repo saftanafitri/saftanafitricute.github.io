@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menghitung Rumus Kecepatan</title>
+    <link rel="stylesheet" href="../../assets/style/main2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center; color: rgba(93, 162, 19, 0.604); font-size: 50px;font-style: italic;" >
+        KALKULATOR KECEPATAN
+      </h1>
+      <section>
+        <h3><fieldset style="max-width: 400px">
+          <legend>Informasi</legend>
+          V = s/t
+          <p>v : kecepatan (m/s)</p>
+          <p>s : jarak (m)</p>
+          <p>t : waktu (sekon)</p>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Form</legend>
+          <label for="jarak">Jarak (m)<p></p></label>
+          <input type="number" id="jarak" name="jarak" min="0" /><br /><br />
+          <label for="waktu">Waktu (sekon)<p></p></label>
+          <input type="number" id="waktu" name="waktu" min="0" /><br /><br />
+          <button type="button" id="btnHitung">Hitung !</button>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Hasil</legend>
+          <label for="hasil">Kecepatan : </label>
+          <span id="hasil"></span>  m/s
+        </fieldset></h3>
+      </section>
+    </div>
+    <script src="./kecepatan.js"></script>
+  </body>
+</html>

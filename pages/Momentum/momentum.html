@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Rumus Momentum</title>
+    <link rel="stylesheet" href="../../assets/style/main2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center; color: rgba(93, 162, 19, 0.604); font-size: 50px;font-style: italic;" >
+        KALKULATOR MOMENTUM
+      </h1>
+      <section>
+        <h3><fieldset style="max-width: 400px">
+          <legend>Informasi</legend>
+          M = m.v
+          <p>p : Momentum Benda (kgm/s)</p>
+          <p>m : Massa benda (kg)</p>
+          <p>v : Kecepatan benda (m/s)</p>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Form</legend>
+          <label for="massa">Massa benda (m)<p></p></label>
+          <input type="number" id="massa" name="massa" min="0" /><br /><br />
+          <label for="kecepatan">Kecepatan benda (m/s)<p></p></label>
+          <input type="number" id="kecepatan" name="kecepatan" min="0" /><br /><br />
+          <button type="button" id="btnHitung">Hitung !</button>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Hasil</legend>
+          <label for="hasil">Momentum : </label>
+          <span id="hasil"></span>  kgm/s
+        </fieldset></h3>
+      </section>
+    </div>
+    <script src="./momentum.js"></script>
+</body>
+</html>

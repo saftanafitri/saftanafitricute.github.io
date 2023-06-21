@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Rumus Momen Inersia</title>
+    <link rel="stylesheet" href="../../assets/style/main2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center; color: rgba(93, 162, 19, 0.604); font-size: 50px;font-style: italic;" >
+        KALKULATOR MOMEN INERSIA
+      </h1>
+      <section>
+        <h3><fieldset style="max-width: 400px">
+          <legend>Informasi</legend>
+          I = mR<sup>2</sup>
+          <p>I : Moment Inersia (kgm<sup>2</sup>)</p>
+          <p>m : Massa partikel (kg)</p>
+          <p>R : Jarak partikel dari sumbu pusat rotasi (m)</p>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Form</legend>
+          <label for="massa">Massa partikel (kg)<p></p></label>
+          <input type="number" id="massa" name="massa" min="0" /><p></p>
+          <label for="jarak">Jarak partikel dari sumbu pusat rotasi (m)<p></p></label>
+          <input type="number" id="jarak" name="jarak" min="0" /><p></p>
+          <button type="button" id="btnHitung">Hitung !</button>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Hasil</legend>
+          <label for="hasil">Momen inersia : </label>
+          <span id="hasil"></span>  kgm<sup>2</sup>
+        </fieldset></h3>
+      </section>
+    </div>
+    <script src="./momen-inersia.js"></script>
+</body>
+</html>

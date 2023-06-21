@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menghitung Rumus Gaya</title>
+    <link rel="stylesheet" href="../../assets/style/main2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center; color: rgba(93, 162, 19, 0.604); font-size: 50px;font-style: italic;" >
+        KALKULATOR GAYA
+      </h1>
+      <section>
+        <h3><fieldset style="max-width: 400px">
+          <legend>Informasi</legend>
+          F = m.a
+          <p>F : gaya (N)</p>
+          <p>m : massa (kg)</p>
+          <p>a : percepatan (m/s<sup>2</sup>)</p>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Form</legend>
+          <label for="massa">massa (kg)<p></p></label>
+          <input type="number" id="massa" name="massa" min="0" /><br /><br />
+          <label for="percepatan">percepatan (m/s<sup>2</sup>)<p></p></label>
+          <input type="number" id="percepatan" name="percepatan" min="0" /><br /><br />
+          <button type="button" id="btnHitung">Hitung !</button>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Hasil</legend>
+          <label for="hasil">Gaya : </label>
+          <span id="hasil"></span>  N
+        </fieldset></h3>
+      </section>
+    </div>
+    <script src="./gaya.js"></script>
+  </body>
+</html>

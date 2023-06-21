@@ -1,0 +1,55 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  background-image:url('../depan2.png');
+  height: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(111, 68, 4);
+  padding: 16px;
+}
+
+#form {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#myInput {
+  background-image: url('../searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 2px solid rgb(75,207,196);
+  width: calc(100% - 62px);
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 5px solid rgb(75,207,196);
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 5px solid rgba(200, 122, 67, 0.837)";
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color:rgb(75,207,196);
+}
+
+.inputFieldDiv{
+  margin: 30px 0px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menghitung Rumus Konstanta Gas</title>
+    <link rel="stylesheet" href="../../assets/style/main2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center; color: rgba(93, 162, 19, 0.604); font-size: 50px;font-style: italic;" >
+        KALKULATOR KONSTANTA GAS
+      </h1>
+      <section>
+       <h3> <fieldset style="max-width: 400px">
+          <legend>Informasi</legend>
+          R = p.v/n.T
+          <p>R : Konstanta Gas (Jmol<sup>-1</sup>K<sup>-1</sup>)</p>
+          <p>p : Tekanan gas (m<sup>2</sup>)</p>
+          <p>v : Volume gas (m<sup>3</sup>)</p>
+          <p>n : Jumlah mol</p>
+          <p>T : Suhu mutlak (<sup>0</sup>K)</p>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Form</legend>
+          <label for="tekanan">Tekanan gas (m<sup>2</sup>)<p></p></label>
+          <input
+            type="number"
+            id="tekanan"
+            name="tekanan"
+            min="0"
+          /><p></p>
+          <label for="volume">Volume gas (m<sup>3</sup>)<p></p></label>
+          <input
+            type="number"
+            id="volume"
+            name="volume"
+            min="0"
+          /><p></p>
+          <label for="mol">Jumlah mol<p></p></label>
+          <input
+            type="number"
+            id="mol"
+            name="mol"
+            min="0"
+          /><p></p>
+          <label for="suhu">Suhu mutlak (<sup>0</sup>K)<p></p></label>
+          <input
+            type="number"
+            id="suhu"
+            name="suhu"
+            min="0"
+          /><p></p>
+          <button type="button" id="btnHitung">Hitung !</button>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Hasil</legend>
+          <label for="hasil">Konstanta gas : </label>
+          <span id="hasil"></span>  Jmol<sup>-1</sup>K<sup>-1</sup>
+        </fieldset></h3>
+      </section>
+    </div>
+    <script src="./konstanta-gas.js"></script>
+  </body>
+</html>

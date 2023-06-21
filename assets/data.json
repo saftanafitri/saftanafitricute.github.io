@@ -1,0 +1,108 @@
+{
+  "data": {
+    "fisika": [
+      {
+        "id": 1,
+        "name": "Kecepatan",
+        "formula": "V = s/t",
+        "action": "<a href='../pages/Kecepatan/kecepatan.html'>Hitung</a>"
+      },
+      {
+        "id": 2,
+        "name": "Percepatan",
+        "formula": "a = ∆v/∆t",
+        "action": "<a href='../pages/Percepatan/percepatan.html'>Hitung</a>"
+      },
+      {
+        "id": 3,
+        "name": "Gaya",
+        "formula": "F = m.a",
+        "action": "<a href='../pages/Gaya/gaya.html'>Hitung</a>"
+      },
+      {
+        "id": 4,
+        "name": "Usaha",
+        "formula": "W = F.s",
+        "action": "<a href='../pages/Usaha/usaha.html'>Hitung</a>"
+      },
+      {
+        "id": 5,
+        "name": "Daya",
+        "formula": "P = W/t",
+        "action": "<a href='../pages/Daya/daya.html'>Hitung</a>"
+      },
+      {
+        "id": 6,
+        "name": "Tekanan",
+        "formula": "P = F/A",
+        "action": "<a href='../pages/Tekanan/tekanan.html'>Hitung</a>"
+      },
+      {
+        "id": 7,
+        "name": "Energi Kinetik",
+        "formula": "Ek = &#189; mv<sup>2</sup>",
+        "action": "<a href='../pages/Ek/ek.html'>Hitung</a>"
+      },
+      {
+        "id": 8,
+        "name": "Energi Potensial",
+        "formula": "Ep = m.g.h",
+        "action": "<a href='../pages/Ep/ep.html'>Hitung</a>"
+      },
+      {
+        "id": 9,
+        "name": "Momentum",
+        "formula": "M = m.v",
+        "action": "<a href='../pages/Momentum/momentum.html'>Hitung</a>"
+      },
+      {
+        "id": 10,
+        "name": "Impuls",
+        "formula": "i = F.Δt",
+        "action": "<a href='../pages/Impuls/impuls.html'>Hitung</a>"
+      },
+      {
+        "id": 11,
+        "name": "Massa Jenis",
+        "formula": "ρ = m/v",
+        "action": "<a href='../pages/Massa-Jenis/massa-jenis.html'>Hitung</a>"
+      },
+      {
+        "id": 12,
+        "name": "Berat Jenis",
+        "formula": "s = W/v",
+        "action": "<a href='../pages/Berat-jenis/berat-jenis.html'>Hitung</a>"
+      },
+      {
+        "id": 13,
+        "name": "Konstanta Gas",
+        "formula": "R = p.v/n.T",
+        "action": "<a href='../pages/Konstanta-gas/konstanta-gas.html'>Hitung</a>"
+      },
+      {
+        "id": 14,
+        "name": "Konstanta Pegas",
+        "formula": "K = F/∆x",
+        "action": "<a href='../pages/Konstanta-pegas/konstanta-pegas.html'>Hitung</a>"
+      },
+      {
+        "id": 15,
+        "name": "Konstanta Gravitasi",
+        "formula": "G = Fr^2/m<sup>2</sup>",
+        "action": "<a href='../pages/Konstanta-gravitasi/konstanta-gravitasi.html'>Hitung</a>"
+      },
+      {
+        "id": 16,
+        "name": "Gravitasi",
+        "formula": "G = F/m",
+        "action": "<a href='../pages/Gravitasi/gravitasi.html'>Hitung</a>"
+      },
+      {
+        "id": 17,
+        "name": "Momen Inersia",
+        "formula": "I = mR<sup>2</sup>",
+        "action": "<a href='../pages/Momen-inersia/momen-inersia.html'>Hitung</a>"
+      }
+    ]
+  }
+}

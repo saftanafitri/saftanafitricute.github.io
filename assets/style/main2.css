@@ -1,0 +1,30 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  background-image:url('../depan3.png');
+  height: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 153, 0);
+  padding: 16px;
+}
+.container fieldset {
+  margin-left: 170px;
+  border-width: 10px;  
+  border-color:  rgb(238,201,122);
+}
+.container fieldset input {
+  border-color:  rgb(238,201,122);
+  background-color:rgba(149, 203, 92, 0.604);
+}
+.container fieldset button{
+  background-color: rgb(238, 201, 122);
+  border-color: rgba(149, 203, 92, 0.604);
+  color:rgb(103, 87, 53);;
+  font-weight: bold;
+}

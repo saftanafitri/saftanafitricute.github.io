@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Rumus Impuls</title>
+    <link rel="stylesheet" href="../../assets/style/main2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="text-align: center; color: rgba(93, 162, 19, 0.604); font-size: 50px;font-style: italic;" >
+        KALKULATOR IMPULS
+      </h1>
+      <section>
+        <h3><fieldset style="max-width: 400px">
+          <legend>Informasi</legend>
+          i = F.Δt
+          <p>i : Impuls (Ns)</p>
+          <p>F : Gaya (N)</p>
+          <p>Δt : Perubahan waktu (sekon)</p>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Form</legend>
+          <label for="gaya">Gaya (N)<p></p></label>
+          <input type="number" id="gaya" name="gaya" min="0" /><br /><br />
+          <label for="waktu">Perubahan waktu (sekon)<p></p></label>
+          <input type="number" id="waktu" name="waktu" min="0" /><br /><br />
+          <button type="button" id="btnHitung">Hitung !</button>
+        </fieldset>
+        <fieldset style="max-width: 400px">
+          <legend>Hasil</legend>
+          <label for="hasil">Impuls : </label>
+          <span id="hasil"></span>  Ns
+        </fieldset></h3>
+      </section>
+    </div>
+    <script src="./impuls.js"></script>
+</body>
+</html>
